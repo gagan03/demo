@@ -1,0 +1,23 @@
+
+
+main {
+  margin-top: 16px;
+  width:50%;
+  margin: auto;
+}
+
+h3
+{
+  background-color:pink;
+  width:10% ;
+  color:aliceblue
+}
+
+nav{
+  margin-top: -5px;
+  width: 10%;
+}
+a{
+  color: aliceblue;
+}
+

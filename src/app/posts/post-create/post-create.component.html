@@ -1,0 +1,30 @@
+<form (submit)="onSavepost(postForm)" #postForm="ngForm">
+<input class="form-control form-control-lg" type="text" placeholder="Device Name:" name="device" ngModel required
+minlength="3"
+#device="ngModel"
+
+placeholder="Device Name">
+<!-- <div class="alert alert-danger" role="alert" *ngIf="device.invalid">Please enter a valid Device Name.</div> -->
+
+
+  <input class="form-control form-control-lg" type="text" name="signal" ngModel required
+  minlength="2"
+  #signal="ngModel"
+  placeholder="Signal-range">
+
+ <!-- <div class="alert alert-danger" role="alert" *ngIf="signal.invalid">Please enter a valid Signal-range.</div> -->
+
+
+
+ <input class="form-control form-control-lg" rows="3" name="state" ngModel required
+ minlength="2"
+ #state="ngModel"
+ placeholder="State-On/Off">
+<!-- <div class="alert alert-danger" role="alert" *ngIf="state.invalid">Please enter a valid state</div> -->
+<button
+class="btn btn-info"
+ type="submit">Save</button>
+</form>
+<hr>
+
+
